@@ -1,0 +1,6 @@
+Run() {
+    . "$(cd $(dirname $0); pwd)/csrun.sh"
+    BuildAndRun $@
+}
+Run $@
+
